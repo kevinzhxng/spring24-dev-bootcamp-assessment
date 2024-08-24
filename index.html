@@ -1,8 +1,46 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-<!-- Your HTML Here -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name Card</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="app.js" defer></script>
+</head>
+  <body onmousemove="moveBackground(event)">
+    <img src="./assets/squiggly.svg" class="shape shape--0">
+      <img src="./assets/circle.svg" class="shape shape--1">
+      <img src="./assets/semi circle.svg" class="shape shape--2">
+      <img src="./assets/circle.svg" class="shape shape--3">
+      <img src="./assets/triangle.svg" class="shape shape--4">
+      <img src="./assets/circle.svg" class="shape shape--5">
+      <img src="./assets/semi circle.svg" class="shape shape--6">
+      <img src="./assets/circle.svg" class="shape shape--7">
+      <img src="./assets/squiggly.svg" class="shape shape--8">
+    <section id="landing-page">
+      <div class="container">
+        <div class="row">
+          <div class="header__padding">
+            <div class="header__profile">
+              <figure class="header__profile click">
+                <a href="https://www.linkedin.com/in/kevinzhxng/" target="_blank">
+                  <img
+                    src="./assets/me-transformed.png"
+                    class="header__profile--border"
+                    alt=""
+                  />
+                </a>
+              </figure>
+            </div>
+          </div>
+          <div class="header__card">
+            <div>
+                Kevin is a second-year Computer Science major at Georgia Tech who loves creating user-friendly front-end applications! This summer, he developed multiple projects including a Duolingo clone, a Spotify clone, a NFT Marketplace, a Movie Search Engine, and a Library E-Commerce website!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
 </html>
